@@ -1,0 +1,8 @@
+n= input('digite algo:')
+s= print ('de qual classe ele pertence a', type(n))
+print ('Ele é numerico?',n.isnumeric())
+print ('Contem letras?', n.isalpha())
+print ('É alfanumérico?', n.isalnum())
+print ('Só tem espaço?', n.isspace())
+print ('Esta em maiúsculas?', n.isupper())
+print ('Está em minusculas?', n.islower())

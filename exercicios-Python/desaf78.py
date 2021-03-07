@@ -1,0 +1,12 @@
+n1 = int(input('Primeiro número'))
+n2 = int(input('Segundo número'))
+n3 = int(input('Terceiro número'))
+n4 = int(input('Quarto número'))
+n5 = int(input('Quinto número'))
+numeros = [n1, n2, n3, n4, n5]
+posimaior = numeros.index(max(numeros))
+posimenor = numeros.index(min(numeros))
+maior = max(numeros)
+menor = min(numeros)
+print('O maior número é {} e ta na {}ª posição'.format(maior, posimaior+1))
+print('O menor número é {} e ta na {}ª posição'.format(menor, posimenor+1))
